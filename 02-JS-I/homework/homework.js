@@ -135,7 +135,7 @@ function esImpar(num) {
   // Tu código:
   var resto = num % 2
 
-  if (resto ==! 0 ) {
+  if (resto == 0 ) {
     return true; 
   } else {
     return false;
