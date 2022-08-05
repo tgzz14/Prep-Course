@@ -193,9 +193,9 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
   if (numero > 0) {
-    return 'es positivo' 
+    return 'Es positivo';
   } else {
-    return 'es negativo'
+    return 'Es negativo';
   }
 }
 
