@@ -134,6 +134,7 @@ function fizzBuzz(numero) {
   // De lo contrario, devuelve el numero
   var divisibleTres = numero % 3;
   var divisibleCinco = numero % 5;
+  var divisibleCincoTres = numero % 15;
   
 
   if (divisibleTres === 0) {
@@ -144,7 +145,7 @@ function fizzBuzz(numero) {
     return 'buzz';
   }
 
-  else if (divisibleCinco === 0 && divisibleTres === 0) {
+  else if (divisibleCincoTres === 0) {
     return 'fizzbuzz';
   } 
 
