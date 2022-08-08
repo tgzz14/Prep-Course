@@ -183,7 +183,7 @@ function esPrimo(numero) {
  if (numero === 0 || numero === 1) {
   return 'false';
  }
-  for (var i = 1 ; numero <= i; i++) {
+  for (var i = 1 ; i <= numero ; i++) {
     if (numero % i === 0) {
      if (i === 2) {
       return 'true';
