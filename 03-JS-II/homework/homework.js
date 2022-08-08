@@ -200,9 +200,9 @@ function tablaDelSeis(){
   //Escribe tu código aquí   
   for (var i = 0; i < 11; i++){
     arrayTabla = [];
-   return arrayTabla.push(6 * i);
+    arrayTabla.push(6 * i);
 
-  } 
+  } return arrayTabla; 
 }
 
 function tieneTresDigitos(numero){
