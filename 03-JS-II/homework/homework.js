@@ -185,15 +185,15 @@ function esPrimo(numero) {
  }
   for (var i = 1 ; i <= numero ; i++) {
     if (numero % i === 0) {
-     if (i === 2) {
-      return 'true';
-     }
-    } return 'false'; 
-  }
-
-  
+      contador = 0;
+      contador = contador + 1;
+    }
+} if (contador === 2) {
+  return 'true';
+} else {
+  return 'false';
 }
-
+}
 function esVerdadero(valor){
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
   //si su valor es true y “Soy falso” si su valor es false.
