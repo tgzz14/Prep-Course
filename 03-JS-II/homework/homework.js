@@ -93,10 +93,10 @@ function esDiezOCinco(numero) {
   // Devuelve "true" si "numero" es 10 o 5
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (numero == 10 || numero == 5) {
-    return 'true';
+  if (numero === 10 || numero === 5) {
+    return true;
   } else {
-    return 'false';
+    return false;
   }
 }
 
@@ -105,9 +105,9 @@ function estaEnRango(numero) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (numero < 50 && numero > 20) {
-    return 'true';
+    return true;
   } else {
-    return 'false';
+    return false;
   }
 }
 
@@ -119,11 +119,11 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-  var resto = numero % 2;
-  if (resto == 0) {
-    return 'true';
+  var resto = numero % 1;
+  if (resto === 0) {
+    return true;
   } else {
-    return 'false';
+    return false;
   }
 }
 
