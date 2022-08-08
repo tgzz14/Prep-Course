@@ -202,7 +202,7 @@ function tablaDelSeis(){
     array = [];
     array.push(6 * i);
 
-  } return arrayTabla; 
+  } return array; 
 }
 
 function tieneTresDigitos(numero){
