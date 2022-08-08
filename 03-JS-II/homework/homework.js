@@ -1,5 +1,7 @@
 // No cambies los nombres de las funciones.
 
+const { arrayReplaceAt } = require("markdown-it/lib/common/utils");
+
 function obtenerMayor(x, y) {
   // "x" e "y" son números enteros (int).
   // Devuelve el número más grande
@@ -199,11 +201,9 @@ function tablaDelSeis(){
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
   for (var i = 0; i < 11; i++){
-    array = [];
-    multiplicacion = 6 * i;
-    array.push(multiplicacion); 
-    
-  } return array; 
+    return array.push(i * 6);
+
+  } 
 }
 
 function tieneTresDigitos(numero){
