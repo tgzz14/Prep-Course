@@ -182,18 +182,20 @@ function esPrimo(numero) {
   // Nota: Los números 0 y 1 NO son considerados números primos
  if (numero === 0 || numero === 1) {
   return 'false';
- }
+ } 
   for (var i = 1 ; i <= numero ; i++) {
     if (numero % i === 0) {
       contador = 0;
       contador = contador + 1;
+    } if (i > 3) {
+      return 'false';
+    } else {
+      return 'true';
     }
-} if (contador === 2) {
-  return 'true';
-} else {
-  return 'false';
+} 
+
 }
-}
+
 function esVerdadero(valor){
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
   //si su valor es true y “Soy falso” si su valor es false.
