@@ -136,18 +136,17 @@ function fizzBuzz(numero) {
   var divisibleCinco = numero % 5;
   var divisibleCincoTres = numero % 15;
   
+  if (divisibleCincoTres === 0) {
+    return 'fizzbuzz';
+  } 
 
-  if (divisibleTres === 0) {
+  else if (divisibleTres === 0) {
     return 'fizz'
   }
 
   else if (divisibleCinco === 0) {
     return 'buzz';
   }
-
-  else if (divisibleCincoTres === 0) {
-    return 'fizzbuzz';
-  } 
 
   else {
     return numero; 
