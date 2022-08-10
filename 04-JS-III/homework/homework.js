@@ -204,7 +204,7 @@ function mesesDelAño(array) {
     if (array[i] == 'Enero' || array[i] == 'Marzo' || array[i] == 'Noviembre') {
       nuevoArr.push(array[i]); 
       } 
-    } if (nuevoArr.lengt === 3) {
+          } if (nuevoArr.lengt === 3) {
       return nuevoArr;
     } else { return 'No se encontraron los meses pedidos';
   }
@@ -231,19 +231,20 @@ function breakStatement(numero) {
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
   // Tu código:
+  var i = 0; 
   var nuevoArr = [];
-  var sumaDos = numero;
 
-  for (var i = 0 ; i < 10 ; i++ ) {
-     sumaDos = sumaDos + 2;
-    nuevoArr.push(sumaDos);
+ while ( i < 10 ) {
+ numero = numero + 2; 
+ nuevoArr.push(numero);
+ i++; 
 
-    if (sumaDos === i) 
-      return 'Se Interrumpió la ejecición';
-      break; 
-  
-    }
-    return nuevoArr; 
+ if (numero === i) {
+  return 'Se interrumpió la ejecución';
+  break;
+ }
+ 
+ } return nuevoArr;
 
   }
 
