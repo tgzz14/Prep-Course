@@ -67,7 +67,7 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
-  if (array[elemento]) {
+  if (array[elemento]!== undefined) {
     return true;
   } return false; 
 }
@@ -79,8 +79,8 @@ function agregarNumeros(numeros) {
   // Tu código:
   var suma = 0;
   for (i = 0 ; i < numeros.length ; i++) {
-    return suma = suma + numeros[i]; 
-  }
+    suma = suma + numeros[i]; 
+  } return suma; 
 }
 
 
