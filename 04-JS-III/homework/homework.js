@@ -199,15 +199,14 @@ function mesesDelAño(array) {
   // Tu código:
   var nuevoArr = [];
   for ( var i = 0 ; i < array.length ; i++) {
-    if (array[i] === 'Enero' || array[i] === 'Marzo' || array[i] === 'Noviembre') {
+    if (array[i] == 'Enero' || array[i] == 'Marzo' || array[i] == 'Noviembre') {
       nuevoArr.push(array[i]); 
-    } 
-  } if (nuevoArr.length === 0) {
-    return 'No se encontraron los meses pedidos'; 
-      }     else {
-        return nuevoArr;
-          }
-        }
+      } 
+    } if (nuevoArr.lengt === 3) {
+      return nuevoArr;
+    } return 'No se encuntraro los meses pedidos';
+
+ }
 
 function mayorACien(array) {
   //La función recibe un array con enteros entre 0 y 200. Recorrer el array y guardar en un nuevo array sólo los
