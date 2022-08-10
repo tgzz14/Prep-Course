@@ -222,10 +222,10 @@ function doWhile(numero) {
   //Usar el bucle do ... while.
 var i = 0; 
   while ( i < 8 ) {
-  numero = numero + 5; 
+  var nuevoNum = 0;
+    nuevoNum = numero + 5; 
   i++; 
-  return numero; 
-}
+} return nuevoNum;
 } 
 
 
