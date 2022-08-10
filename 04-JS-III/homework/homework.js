@@ -69,7 +69,7 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
-  if (array[elemento] === 0) {
+  if (array[elemento] === undefined) {
     return false;
   } return true; 
 }
@@ -154,7 +154,7 @@ function diaDeLaSemana(numeroDeDia) {
     return 'Es fin de semana'; 
   }
   if (numeroDeDia === 2 || numeroDeDia === 3 || numeroDeDia === 4 || numeroDeDia === 5 || numeroDeDia === 6 ) {
-    return 'Es día Laboral';
+    return 'Es dia Laboral';
   }
 } 
 
@@ -163,6 +163,13 @@ function empiezaConNueve(n) {
   //Desarrolle una función que recibe como parámetro un número entero n. Debe retornar true si el entero 
   //inicia con 9 y false en otro caso.
   //Escribe tu código aquí
+  nuevoStr = n.toString(); 
+
+  if ( nuevoStr[0] == 9) {
+    return true;
+  } else {
+    return false; 
+  }
   
 }
 
