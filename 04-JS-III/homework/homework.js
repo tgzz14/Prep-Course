@@ -257,18 +257,20 @@ function continueStatement(numero) {
   //Cuando el número de iteraciones alcance el valor 5, no se suma en ese caso y se continua con la siguiente iteración
   //Pista: usá el statement 'continue'
   // Tu código:
+  var i = 0; 
   var nuevoArr = [];
-  var sumaDos = numero;
 
-  for (var i = 0 ; i < 10 ; i++ ) {
-     sumaDos = sumaDos + 2;
-    nuevoArr.push(sumaDos);
+ while ( i < 10 ) {
+ numero = numero + 2; 
+ nuevoArr.push(numero);
+ i++; 
 
-    if (i === 5) 
-      continue; 
-  
-    }
-    return nuevoArr; 
+ if (i === 5) {
+  continue;
+ }
+ 
+ } return nuevoArr;
+
 }
 
 
