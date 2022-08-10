@@ -266,12 +266,13 @@ function continueStatement(numero) {
  numero = numero + 2; 
  nuevoArr.push(numero);
  i++;
- return nuevoArr;  
 
- if (i === 5) {
+
+ if (i === 5) 
   continue;
-   } 
+   nuevoArr.pop();
    
+   return nuevoArr;  
   }
 
 
