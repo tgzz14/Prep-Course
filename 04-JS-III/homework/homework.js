@@ -206,8 +206,8 @@ function mesesDelAño(array) {
       } 
     } if (nuevoArr.lengt === 3) {
       return nuevoArr;
-    } return 'No se encuntraro los meses pedidos';
-
+    } else { return 'No se encontraron los meses pedidos';
+  }
  }
 
 function mayorACien(array) {
