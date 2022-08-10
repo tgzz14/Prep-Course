@@ -105,12 +105,13 @@ function numeroMasGrande(numeros) {
   valorMayor = numeros[0];
 
   for (var i = 1 ; i < numeros.length ; i++ ) {
-    if( valorMayor < numeros[i]) {
-      valormayor = numeros[i]; 
+    if (valorMayor < numeros[i]) {
+        valorMayor = numeros[i];
+        }
     }
-      
-  } return valorMayor; 
-}
+      return valorMayor; 
+  } 
+
 
 
 function multiplicarArgumentos() {
@@ -134,6 +135,12 @@ function multiplicarArgumentos() {
 function cuentoElementos(arreglo){
   //Realiza una función que retorne la cantidad de los elementos del arreglo cuyo valor es mayor a 18.
   //Escribe tu código aquí
+  var contador = 0; 
+  for (var i = 0 ; i < arreglo.length ; i++) {
+    if (arreglo[i] > 18) {
+      contador = contador + 1; 
+    }
+  } return contador; 
 
 }
 
@@ -143,7 +150,12 @@ function diaDeLaSemana(numeroDeDia) {
   //Realiza una función que dado el número del día de la semana, retorne: Es fin de semana
   //si el día corresponde a Sábado o Domingo y “Es dia Laboral” en caso contrario. 
   //Escribe tu código aquí   
-  
+  if (numeroDeDia === 1 || numeroDeDia === 7 ) {
+    return 'Es fin de semana'; 
+  }
+  if (numeroDeDia === 2 || numeroDeDia === 3 || numeroDeDia === 4 || numeroDeDia === 5 || numeroDeDia === 6 ) {
+    return 'Es Laboral';
+  }
 } 
 
 
@@ -159,7 +171,17 @@ function todosIguales(arreglo) {
   //Escriba la función todosIguales, que indique si todos los elementos de un arreglo son iguales:
   //retornar true, caso contrario retornar false.
   //Escribe tu código aquí  
-  
+ var comparacion = arreglo[0];
+ var contador = 0;
+  for ( var i = 1 ; i < arreglo.length ; i++) {
+  if ( comparacion === arreglo[i]) {
+      contador = contador + 1; 
+    }
+  } if ( contador === arreglo.length - 1) {
+    return true 
+  } else {
+    return false; 
+  }
 } 
 
 
