@@ -230,16 +230,17 @@ function breakStatement(numero) {
   //Pista: usá el statement 'break'
   // Tu código:
   var nuevoArr = [];
-  var sumaDos = 0;
+  var sumaDos = numero;
 
   for (var i = 0 ; i < 10 ; i++ ) {
-     
-    nuevoArr.push (numero + 2)
+     sumaDos = sumaDos + 2;
+    nuevoArr.push (sumaDos);
 
-    if (nuevoArr[i] === i) {
+    if (sumaDos === i) 
       return 'Se Interrumpió la ejecición';
-      break; }
-    } 
+      break; 
+  
+    }
     return nuevoArr; 
 
   }
