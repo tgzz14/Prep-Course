@@ -7,11 +7,11 @@ function crearGato (nombre, edad) {
   // Devuelve el objeto
   // Tu código:
   var gato  = { 
-    'nombre': 'nombre', 
-    'edad': 'edad',
-    meow: function () {
+    nombre: 'nombre', 
+    edad: 'edad',
+    meow: function() {
       return 'Meow!';
-    }
+    }, 
   }
 }
 
