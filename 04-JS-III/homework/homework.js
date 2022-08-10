@@ -40,7 +40,7 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
   // Tu código:
-return array.push(elemento);
+return array.push('elemento');
 }
 
 
@@ -49,7 +49,7 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   // y devuelve el array
   // Pista: usa el método `.unshift`
   // Tu código:
-  return array.unshift(elemento);
+  return array.unshift('elemento');
 }
 
 
@@ -67,9 +67,9 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
-  if (array[elemento]!== undefined) {
-    return true;
-  } return false; 
+  if (array[elemento]=== undefined) {
+    return false;
+  } return true; 
 }
 
 
