@@ -201,10 +201,10 @@ function mesesDelAño(array) {
   // Tu código:
   var nuevoArr = [];
   for ( var i = 0 ; i < array.length ; i++) {
-    if (array[i] == 'Enero' || array[i] == 'Marzo' || array[i] == 'Noviembre') {
+    if (array[i] === 'Enero' || array[i] === 'Marzo' || array[i] === 'Noviembre') {
       nuevoArr.push(array[i]); 
       } 
-          } if (nuevoArr.lengt === 3) {
+          } if (nuevoArr.length === 3) {
       return nuevoArr;
     } else { return 'No se encontraron los meses pedidos';
   }
