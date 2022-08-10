@@ -265,10 +265,10 @@ function continueStatement(numero) {
  nuevoArr.push(numero);
  i++; 
 
- if (i === 5) {
+ if (i === 5) 
   continue;
   
- } return nuevoArr;
+  return nuevoArr;
  
  } 
 
