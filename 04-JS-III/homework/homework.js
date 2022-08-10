@@ -269,11 +269,9 @@ function continueStatement(numero) {
 
  if (i === 5) 
   continue;
-  
-  return nuevoArr;
- 
- } 
-
+  nuevoArr.pop(numero);
+   } 
+ return nuevoArr; 
 }
 
 
