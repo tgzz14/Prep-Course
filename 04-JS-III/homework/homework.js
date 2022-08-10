@@ -265,14 +265,15 @@ function continueStatement(numero) {
  while ( i < 10 ) {
  numero = numero + 2; 
  nuevoArr.push(numero);
- i++; 
+ i++;
+ return nuevoArr;  
 
  if (i === 5) {
   continue;
-  nuevoArr.pop(numero);
    } 
+   
   }
- return nuevoArr; 
+
 
 }
 
