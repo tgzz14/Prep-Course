@@ -185,6 +185,10 @@ function esPrimo(numero) {
   if ( numero === 0 || numero === 1) {
     return 'falso';
   }
+  
+  if (numero === 2) {
+    return 'true';
+  }
   var contador = 0; 
 
   for (let i = 2; numero <= i; i++) {
