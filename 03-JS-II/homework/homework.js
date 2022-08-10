@@ -190,10 +190,11 @@ function esPrimo(numero) {
   for (let i = 2; numero <= i; i++) {
     if (numero % i === 0) {
         contador = contador + 1; 
-        }
-    } if (contador === 1) {
-      return 'true';
-    } return ' falso'; 
+        if (contador === 1) {
+          return 'true';
+        } return ' falso'; 
+    } 
+  }
   }
  
 function esVerdadero(valor){
