@@ -154,7 +154,7 @@ function diaDeLaSemana(numeroDeDia) {
     return 'Es fin de semana'; 
   }
   if (numeroDeDia === 2 || numeroDeDia === 3 || numeroDeDia === 4 || numeroDeDia === 5 || numeroDeDia === 6 ) {
-    return 'Es Laboral';
+    return 'Es día Laboral';
   }
 } 
 
