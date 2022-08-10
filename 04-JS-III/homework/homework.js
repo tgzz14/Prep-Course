@@ -267,9 +267,10 @@ function continueStatement(numero) {
 
  if (i === 5) {
   continue;
- }
- 
+  
  } return nuevoArr;
+ 
+ } 
 
 }
 
