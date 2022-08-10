@@ -103,6 +103,7 @@ function numeroMasGrande(numeros) {
   // Devuelve el número más grande
   // Tu código:
   valorMayor = numeros[0];
+
   for (var i = 1 ; i < numeros.length ; i++ ) {
     if( valorMayor < numeros[i]) {
       valormayor = numeros[i]; 
@@ -116,6 +117,17 @@ function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
   // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
+  if (arguments.length === 0) {
+    return 0; 
+  }
+  if (arguments.length === 1) {
+    return arguments[0]; 
+  }
+   multiplicacion = 1; 
+  for (var i = 0; i < arguments.length ; i++) {
+    multiplicacion = multiplicacion * arguments[i];
+  }
+      return multiplicacion; 
 }
 
 
