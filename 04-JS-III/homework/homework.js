@@ -201,12 +201,13 @@ function mesesDelAño(array) {
   for ( var i = 0 ; i < array.length ; i++) {
     if (array[i] === 'Enero' || array[i] === 'Marzo' || array[i] === 'Noviembre') {
       nuevoArr.push(array[i]); 
-    } else {
-      return 'No se encontraron los meses pedidos'
-    }
-  } return nuevoArr; 
-}
-
+    } 
+  } if (nuevoArr.length === 0) {
+    return 'No se encontraron los meses pedidos'; 
+      }     else {
+        return nuevoArr;
+          }
+        }
 
 function mayorACien(array) {
   //La función recibe un array con enteros entre 0 y 200. Recorrer el array y guardar en un nuevo array sólo los
