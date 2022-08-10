@@ -263,17 +263,16 @@ function continueStatement(numero) {
   var nuevoArr = [];
 
  while ( i < 10 ) {
+  if( i === 5 ) {
+    continue;
+  } else {
  numero = numero + 2; 
  nuevoArr.push(numero);
  i++;
-
-
- if (i === 5) 
-  continue;
-   nuevoArr.pop();
-   
-   return nuevoArr;  
   }
+
+    
+  } return nuevoArr; 
 
 
 }
