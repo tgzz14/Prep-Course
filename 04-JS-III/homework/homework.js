@@ -229,7 +229,21 @@ function breakStatement(numero) {
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
   // Tu código:
-}
+  var nuevoArr = [];
+  var sumaDos = 0;
+
+  for (var i = 0 ; i < 10 ; i++ ) {
+     
+    nuevoArr.push (numero + 2)
+
+    if (nuevoArr[i] === i) {
+      return 'Se Interrumpió la ejecición';
+      break; }
+    } 
+    return nuevoArr; 
+
+  }
+
 
 
 function continueStatement(numero) {
