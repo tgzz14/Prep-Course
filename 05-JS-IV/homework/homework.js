@@ -22,7 +22,7 @@ function agregarPropiedad (objeto, property) {
   // NOTA: El nombre de la propiedad no es "propiedad", el nombre es el valor del argumento llamado "property" (una cadena/string)
   // Tu código:
   var objeto = {
-    property: null
+    property: 'null'
   }
    return objeto; 
 }
