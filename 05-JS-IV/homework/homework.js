@@ -24,7 +24,7 @@ function agregarPropiedad (objeto, property) {
   var objeto = {
     property: null
   }
-   return objeto.property; 
+   return objeto; 
 }
 
 function invocarMetodo (objeto, metodo) {
