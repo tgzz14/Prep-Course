@@ -62,7 +62,7 @@ function nuevoUsuario (nombre, email, password) {
   // Devuelve el objeto
   // Tu código:
   var nuevoObj = {
-    nombre : nombr,
+    nombre : nombre,
     email : email,
     password : password
   }
