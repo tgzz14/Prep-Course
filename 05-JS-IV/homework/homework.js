@@ -87,7 +87,7 @@ function tienePropiedad (objeto, propiedad) {
   // "propiedad" es un string
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (objeto['propiedad'] !== undefined) {
+  if (objeto[propiedad] !== undefined) {
     return true;
   } else {
     return false; 
