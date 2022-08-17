@@ -78,6 +78,15 @@ function crearInstanciaPersona(nombre, apellido, edad, dir) {
 function agregarMetodo() {
   //La función agrega un método "datos" a la clase Persona que toma el nombre y la edad de la persona y devuelve: 
   //Ej: "Juan, 22 años"
+  class Persona {
+    constructor (nombre,edad){
+      this.nombre = nombre;
+      this.edad = edad
+    }
+  datos() {
+    return this.nombre + ',' + this.edad + ' años'; 
+  }
+}
 }
   
 
