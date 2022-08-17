@@ -79,12 +79,12 @@ function agregarMetodo() {
     constructor (nombre,edad){
       this.nombre = nombre;
       this.edad = edad;
+      this.datos = function(){
+        return this.nombre + ',' + this.edad + ' años';
+      }
     }
 
-  datos() {
-    return this.nombre + ',' + this.edad + ' años'; 
   }
-}
 }
   
 
