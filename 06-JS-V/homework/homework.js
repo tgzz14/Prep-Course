@@ -54,7 +54,7 @@ function agregarStringInvertida() {
     //  }
 
   class Persona {
-    constructor(nombre, apellido, edad, domicilio) {
+    constructor (nombre, apellido, edad, domicilio) {
       // Crea el constructor:
       this.nombre = nombre;
       this.apellido = apellido;
@@ -81,8 +81,9 @@ function agregarMetodo() {
   class Persona {
     constructor (nombre,edad){
       this.nombre = nombre;
-      this.edad = edad
+      this.edad = edad;
     }
+
   datos() {
     return this.nombre + ',' + this.edad + ' años'; 
   }
