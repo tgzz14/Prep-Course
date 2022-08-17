@@ -26,8 +26,8 @@ function agregarStringInvertida() {
   // Ej: 'menem'.reverse() => menem
   // 'toni'.reverse() => 'inot'
   // Pista: Necesitarás usar "this" dentro de "reverse"
-  Persona.prototype.reverse = function() {
-      return this.nombre.split('').reverse().join('');
+  String.prototype.reverse = function() {
+      return this.split('').reverse().join('');
   }
 }
 
