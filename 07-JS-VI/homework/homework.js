@@ -55,7 +55,8 @@ function map(array, cb) {
   nuevoArr = array.map(function(elemento){
         return cb(elemento);
   })
- 
+
+  return nuevoArr; 
 }
 
 function filter(array) {
