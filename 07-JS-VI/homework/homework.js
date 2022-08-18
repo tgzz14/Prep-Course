@@ -30,7 +30,7 @@ function sumarArray(numeros, cb) {
   // No es necesario devolver nada
   //Tu código:
  var cb = numeros.reduce(function(acc, elemento){
-     acc + elemento;
+     return acc + elemento;
   }, 0);
 
 
