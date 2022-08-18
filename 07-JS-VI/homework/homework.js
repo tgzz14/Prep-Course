@@ -30,8 +30,8 @@ function sumarArray(numeros, cb) {
   //Tu código:
   var suma = 0; 
 suma = numeros.reduce(function(acc, elemento){
-      acc + elemento;
-  }, 0);
+      return acc + elemento;
+  });
 
   cb(suma);
 
