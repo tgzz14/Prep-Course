@@ -28,8 +28,8 @@ function sumarArray(numeros, cb) {
   // Pasa el resultado a `cb`
   // No es necesario devolver nada
   //Tu código:
- numeros.reduce(function(acc, elemento){
-      cb(acc, elemento);
+ cb = numeros.reduce(function(acc, elemento){
+      acc + elemento;
   }, 0);
 
 
@@ -52,6 +52,7 @@ function map(array, cb) {
   nuevoArr = array.forEach(function(elemento){
         return cb(elemento);
   })
+
 }
 
 function filter(array) {
