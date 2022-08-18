@@ -5,7 +5,7 @@ function mayuscula(nombre) {
   //ej: Recibe "mario" ----> Devuelve "Mario"
   //Tu código:
   nombre.forEach(function(elemento){
-    return elemento.capitaliza(); 
+    return elemento.capitalize(); 
   })
 }
 
