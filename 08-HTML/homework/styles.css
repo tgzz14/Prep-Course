@@ -20,5 +20,6 @@ h1 {
    }
 
    * {
-    background-image : url('https://caminossostenibilidad.com/2017/05/06/paisaje-cultura-y-sostenibilidad-eduardo-martinez-de-pison/')
+    background-image : url('https://caminossostenibilidad.com/2017/05/06/paisaje-cultura-y-sostenibilidad-eduardo-martinez-de-pison/');
+    background-color : transparente;   
    }
