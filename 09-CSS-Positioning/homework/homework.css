@@ -24,7 +24,11 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 /* Ejercicio 3: */
 
 /* Acá va tu código */
-
+#ejercicioTres {
+    position : relative;
+    top : 100 xp;
+    right : 200 xp; 
+}
 
 
 /* Ejercicio 4: */
