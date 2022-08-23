@@ -48,8 +48,8 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 #ejercicioCinco {
     display : flex;
     align-items : center; 
-    justify-content : center; 
-    align-items : center;
+    justify-content : space-around; 
+
 }
 
 
