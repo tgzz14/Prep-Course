@@ -85,10 +85,17 @@ function deleteAbc(cadena){
   //y devuelva la versión modificada o la misma cadena, en caso de contener dichas letras.
   //Escribe tu código aquí
 
- var newStr = cadena.replace('abc', '');
-
-    return newStr; 
+  var a = [];
+  var arr = cadena.split('');
+  for (var i = 0; i < cadena.length; i++) {
+    if(cadena[i] !== "a"|| cadena[i] !== "b" || cadena[i] !== "c") {
+     a.push(cadena[i])
+     
+    }
     
+  }
+ return a.toString();
+
 }
 
 
