@@ -43,7 +43,7 @@ function capToFront(s) {
   }
 
   for ( var i = 0; i < s.length ; i++) {
-    if (s[i] === s[i].toUpperCase()) {
+    if (s[i] === s[i].toLowerCase()) {
       nuevostrCh += s[i]; 
     }
   }
