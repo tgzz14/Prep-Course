@@ -91,7 +91,7 @@ function sortArray(arr) {
   //Ej: Recibe ---> ["You", "are", "beautiful", "looking"] || Devuelve ---> [“You", "are", "looking", "beautiful"]
   //Escribe tu código aquí
   arr.sort(function(a,b) {
-    return b.length - a.length; 
+    return a.length - b.length; 
 })
   return arr; 
 }
