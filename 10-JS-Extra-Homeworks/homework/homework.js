@@ -92,15 +92,18 @@ function sortArray(arr) {
   //Escribe tu código aquí
   arrMayor = arr[0]; 
   nuevoArr = [];
+
+  
   for (i = 1; i < arr.length ; i++) {
-    if (arr[i].length >= arrMayor.length) {
+    if (arr[i].length == arrMayor.length) {
+      nuevoArr.push(arrMayor);
       arrMayor = arr[i];
-      nuevoArr.push(arr[i])
+    } else if (arr[i].length > arrMayor.Length) {
+      nuevoArr.push(arr[i]);
+      arrMayor = arr[i]; 
     }
-        nuevoArr.push(arrMayor)
-     } 
       
-    return nuevoArr;
+  } return nuevoArr; 
   
 }
 
