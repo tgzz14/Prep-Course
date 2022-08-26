@@ -90,20 +90,7 @@ function sortArray(arr) {
   //La función recibe una matriz de strings. Ordena la matriz en orden creciente de longitudes de cadena
   //Ej: Recibe ---> ["You", "are", "beautiful", "looking"] || Devuelve ---> [“You", "are", "looking", "beautiful"]
   //Escribe tu código aquí
-  arrMayor = arr[0]; 
-  nuevoArr = [];
-
-  
-  for (i = 1; i < arr.length ; i++) {
-    if (arr[i].length === arrMayor.length) {
-      nuevoArr.push(arrMayor);
-      arrMayor = arr[i];
-    } else if (arr[i].length > arrMayor.Length) {
-      nuevoArr.push(arr[i]);
-      arrMayor = arr[i]; 
-    }
-      
-  } return nuevoArr; 
+  arr.reverse();
   
 }
 
