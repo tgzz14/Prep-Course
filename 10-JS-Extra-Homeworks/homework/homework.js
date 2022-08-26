@@ -85,7 +85,7 @@ function deleteAbc(cadena){
 nuevoStr1 = '';
   for (var i = 0 ; i < cadena.length ; i++) {
     if (cadena[i] == 'a' || cadena[i] == 'b' || cadena[i] == 'c') {
-      nuevoStr1 = cadena.slice(i);
+      nuevoStr1 = cadena.slice(i+1);
     } 
   } return nuevoStr1; 
 }
