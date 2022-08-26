@@ -86,8 +86,7 @@ function deleteAbc(cadena){
   //Escribe tu código aquí
 
   var a = [];
-  var arr = cadena.split('');
-  console.log(arr)
+ 
   for (var i = 0; i < cadena.length; i++) {
     if(cadena[i] !== "a"&& cadena[i] !== "b" && cadena[i] !== "c") {
      a.push(cadena[i])
