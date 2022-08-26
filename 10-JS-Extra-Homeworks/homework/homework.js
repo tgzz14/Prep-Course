@@ -82,12 +82,7 @@ function deleteAbc(cadena){
   //Define una función que elimine las letras "a", "b" y "c" de la cadena dada 
   //y devuelva la versión modificada o la misma cadena, en caso de contener dichas letras.
   //Escribe tu código aquí
-nuevoStr1 = '';
-  for (var i = 0 ; i < cadena.length ; i++) {
-    if (cadena[i] == 'a' || cadena[i] == 'b' || cadena[i] == 'c') {
-      nuevoStr1 = cadena.slice(i+1);
-    } 
-  } return nuevoStr1; 
+
 }
 
 
@@ -95,6 +90,18 @@ function sortArray(arr) {
   //La función recibe una matriz de strings. Ordena la matriz en orden creciente de longitudes de cadena
   //Ej: Recibe ---> ["You", "are", "beautiful", "looking"] || Devuelve ---> [“You", "are", "looking", "beautiful"]
   //Escribe tu código aquí
+  arrMayor = arr[0]; 
+  nuevoArr = [];
+  for (i = 1; i < arr.length ; i++) {
+    if (arr[i].length >= arrMayor.length) {
+      arrMayor = arr[i];
+      nuevoArr.push(arr[i])
+    }
+        nuevoArr.push(arrMayor)
+     } 
+      
+    return nuevoArr;
+  
 }
 
 
