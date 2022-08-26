@@ -93,7 +93,7 @@ function deleteAbc(cadena){
     }
     
   }
- return a.toString();
+ return a;
 
 }
 
