@@ -22,9 +22,9 @@ function numberOfCharacters(string) {
   obj = {};
 
   for (var i = 0 ; i< string.length ; i++) {
-    if(!obj.string.charAt(i)) {
-      obj.string.charAt(i) = 0;
-    } obj.string.charAt(i) += 1; 
+    if(!obj[string[i]]) {
+      obj[string[i]] = 0;
+    } obj[string[i]] += 1; 
   } return obj; 
 }
 
