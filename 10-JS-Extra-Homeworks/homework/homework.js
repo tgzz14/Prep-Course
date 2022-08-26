@@ -85,6 +85,8 @@ function deleteAbc(cadena){
   //y devuelva la versión modificada o la misma cadena, en caso de contener dichas letras.
   //Escribe tu código aquí
 
+  return cadena.replace('abc', '');
+
 }
 
 
