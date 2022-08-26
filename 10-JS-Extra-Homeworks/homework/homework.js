@@ -95,7 +95,7 @@ function sortArray(arr) {
 
   
   for (i = 1; i < arr.length ; i++) {
-    if (arr[i].length == arrMayor.length) {
+    if (arr[i].length === arrMayor.length) {
       nuevoArr.push(arrMayor);
       arrMayor = arr[i];
     } else if (arr[i].length > arrMayor.Length) {
